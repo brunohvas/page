@@ -9,4 +9,11 @@
         widthEnabled: 1024
 
     })
+
+    var carousekImgs = new Carousel({
+        container: '.laptop-slider .slideshow',
+        itens: 'figure',
+        brnPrev: '.prev',
+        btnNext: '.next'
+    })
 })()
