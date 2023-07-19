@@ -12,73 +12,97 @@
 	<div class="fluig-style-guide">
 		<form name="form" role="form">
 			<form role="form">
-				<h1>Dados Pessoais</h1>
-			<div class="row">
-				<div class="form-group col-md-4">
-					<label for="nomeCompleto">Nome Completo</label>
-					
-					<input type="text" name="nomeCompleto" class="form-control" id="nome" >
-				</div>
-				<div class="form-group col-md-4">
-					<label for="email">Email</label>
-					<input type="mail" name="email" class="form-control" id="email">
-				</div>
-				<div class="form-group col-md-2">
-					<label for="telContato">Telefone para contato</label>
-					<input type="text" name="telContato" class="form-control" id="tel">
-				</div>
-				<div class="form-group col-md-2">
-					<label for="telRecado">Telefone para recado</label>
-					<input type="text" name="telRecado" class="form-control" id="telR">
-				</div>
 
-			</div>	
-
-			<div class="row">
-				<div class="form-group col-md-2">
-					<label for="dataNascimento">Data de nascimento</label>
-					<input type="text" name="dataNascimento" class="form-control" id="data">
-				</div>
-				<div class="form-group col-md-2">
-					<label for="cpf">CPF</label>
-					
-					<input type="text" name="cpf" class="form-control" id="cpf" >
-				</div>
-				<div class="form-group col-md-2">
-					<label for="rg">RG</label>
-					<input type="text" name="rg" class="form-control" id="rg">
-				</div>
-			</div>
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fluigicon fluigicon-user-role icon-md" aria-hidden="true"></i>
+						 Dados Pessoais</h3>
+					</div>
+					<div class="panel-body">
+						<div class="row">
+							<div class="form-group col-md-4">
+								<label for="nomeCompleto">Nome Completo</label>
+								
+								<input type="text" name="nomeCompleto" class="form-control" id="nome" >
+							</div>
+							<div class="form-group col-md-4">
+								<label for="email">Email</label>
+								<input type="mail" name="email" class="form-control" id="email">
+							</div>
+							<div class="form-group col-md-2">
+								<label for="telContato">Telefone para contato</label>
+								<input type="text" name="telContato" class="form-control" id="tel" mask="(00)00000-0000">
+							</div>
+							<div class="form-group col-md-2">
+								<label for="telRecado">Telefone para recado</label>
+								<input type="text" name="telRecado" class="form-control" id="telR" mask="(00)00000-0000">
+							</div>
 			
-			<h1>Endereço</h1>
-
-			<div class="row">
-				<div class="form-group col-md-2">
-					<label for="cep">CEP</label>
-					<input type="text" name="cep" class="form-control" id="cep">
+						</div>	
+			
+						<div class="row">
+							<div class="form-group col-md-2">
+								<label for="dataNascimento">Data de nascimento</label>
+								<input type="text" name="dataNascimento" class="form-control" id="data">
+							</div>
+							<div class="form-group col-md-2">
+								<label for="cpf">CPF</label>
+								
+								<input type="text" name="cpf" class="form-control" id="cpf" mask="000.000.000-00">
+							</div>
+							<div class="form-group col-md-2">
+								<label for="rg">RG</label>
+								<input type="text" name="rg" class="form-control" id="rg" mask='00.000.000-0'>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="form-group col-md-3">
-					<label for="logradouro">Logradouro</label>
-					<input type="text" name="logradouro" class="form-control" id="logradouro">
+									
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fluigicon fluigicon-map-marker icon-md" aria-hidden="true"></i> Endereço</h3>
+					</div>
+					<div class="panel-body">
+							<div class="row">
+							<div class="form-group col-md-2">
+								<label for="cep">CEP</label>
+								<input type="text" name="cep" class="form-control" id="cep" mask="00000-000">
+							</div>
+							<div class="form-group col-md-3">
+								<label for="logradouro">Logradouro</label>
+								<input type="text" name="logradouro" class="form-control" id="logradouro">
+							</div>
+							<div class="form-group col-md-1">
+								<label for="numero">Número</label>
+								<input type="text" name="numero" class="form-control" id="numero">
+							</div>
+							<div class="form-group col-md-2">
+								<label for="bairro">Bairro</label>
+								<input type="text" name="bairro" class="form-control" id="bairro">
+							</div>
+							<div class="form-group col-md-2">
+								<label for="cidade">Cidade</label>
+								<input type="text" name="cidade" class="form-control" id="cidade">
+							</div>
+							<div class="form-group col-md-1">
+								<label for="estado">Estado</label>
+								<input type="text" name="estado" class="form-control" id="estado">
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="form-group col-md-1">
-					<label for="numero">Número</label>
-					<input type="text" name="numero" class="form-control" id="numero">
+						
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fluigicon fluigicon-graduation-cap icon-md" aria-hidden="true"></i>
+ 							 Informações do Curso</h3>
+					</div>
+					<div class="panel-body">
+						
+					</div>
 				</div>
-				<div class="form-group col-md-2">
-					<label for="bairro">Bairro</label>
-					<input type="text" name="bairro" class="form-control" id="bairro">
-				</div>
-				<div class="form-group col-md-2">
-					<label for="cidade">Cidade</label>
-					<input type="text" name="cidade" class="form-control" id="cidade">
-				</div>
-				<div class="form-group col-md-1">
-					<label for="estado">Estado</label>
-					<input type="text" name="estado" class="form-control" id="estado">
-				</div>
-			</div>
-
+						
+		
 			</form>
 	</div>
 </body>
