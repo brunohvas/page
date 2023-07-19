@@ -42,7 +42,7 @@ img {
 }
 
 .js .laptop-slider {
-    overflow: hidden;
+    overflow: ;
     color: white;
 }
 
@@ -53,14 +53,14 @@ img {
     max-width: 950px;
 }
 
-    .js .laptop-slider figure{
-        opacity: 0;
-        transition: 1s opacity;
-        width: 100%;
+.js .laptop-slider figure{
+    opacity: 1 ;
+    transition: 1s opacity;
+    width: 100%;
         
-        top: 0;
-        left: 0;
-    }
+    top: 0;
+    left: 0;
+}
 
 .js .laptop-slider figure.show {
     opacity: 1;
