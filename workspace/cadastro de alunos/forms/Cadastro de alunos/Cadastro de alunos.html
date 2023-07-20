@@ -16,14 +16,14 @@
 				<div class="panel panel-primary">
 					<div class="panel-heading">
 						<h3 class="panel-title"><i class="fluigicon fluigicon-user-role icon-md" aria-hidden="true"></i>
-						 Dados Pessoais</h3>
+							Dados Pessoais</h3>
 					</div>
 					<div class="panel-body">
 						<div class="row">
 							<div class="form-group col-md-4">
 								<label for="nomeCompleto">Nome Completo</label>
-								
-								<input type="text" name="nomeCompleto" class="form-control" id="nome" >
+
+								<input type="text" name="nomeCompleto" class="form-control" id="nome">
 							</div>
 							<div class="form-group col-md-4">
 								<label for="email">Email</label>
@@ -31,15 +31,17 @@
 							</div>
 							<div class="form-group col-md-2">
 								<label for="telContato">Telefone para contato</label>
-								<input type="text" name="telContato" class="form-control" id="tel" mask="(00)00000-0000">
+								<input type="text" name="telContato" class="form-control" id="tel"
+									mask="(00)00000-0000">
 							</div>
 							<div class="form-group col-md-2">
 								<label for="telRecado">Telefone para recado</label>
-								<input type="text" name="telRecado" class="form-control" id="telR" mask="(00)00000-0000">
+								<input type="text" name="telRecado" class="form-control" id="telR"
+									mask="(00)00000-0000">
 							</div>
-			
-						</div>	
-			
+
+						</div>
+
 						<div class="row">
 							<div class="form-group col-md-2">
 								<label for="dataNascimento">Data de nascimento</label>
@@ -47,7 +49,7 @@
 							</div>
 							<div class="form-group col-md-2">
 								<label for="cpf">CPF</label>
-								
+
 								<input type="text" name="cpf" class="form-control" id="cpf" mask="000.000.000-00">
 							</div>
 							<div class="form-group col-md-2">
@@ -57,13 +59,14 @@
 						</div>
 					</div>
 				</div>
-									
+
 				<div class="panel panel-primary">
 					<div class="panel-heading">
-						<h3 class="panel-title"><i class="fluigicon fluigicon-map-marker icon-md" aria-hidden="true"></i> Endereço</h3>
+						<h3 class="panel-title"><i class="fluigicon fluigicon-map-marker icon-md"
+								aria-hidden="true"></i> Endereço</h3>
 					</div>
 					<div class="panel-body">
-							<div class="row">
+						<div class="row">
 							<div class="form-group col-md-2">
 								<label for="cep">CEP</label>
 								<input type="text" name="cep" class="form-control" id="cep" mask="00000-000">
@@ -91,22 +94,65 @@
 						</div>
 					</div>
 				</div>
-						
+
 				<div class="panel panel-primary">
 					<div class="panel-heading">
-						<h3 class="panel-title"><i class="fluigicon fluigicon-graduation-cap icon-md" aria-hidden="true"></i>
- 							 Informações do Curso</h3>
+						<h3 class="panel-title"><i class="flaticon flaticon-mortarboard icon-md" aria-hidden="true"></i>
+							</i> Informações do Curso</h3>
 					</div>
 					<div class="panel-body">
-						
+						<div class="row">
+							<div class="form-group col-md-2">
+								<label for="curso">Selecione o curso desejado:</label>
+								<select name="curso" class="form-control">
+									<option>Back-end</option>
+									<option>Front-end</option>
+									<option>Full Stack</option>
+									<option>DBA</option>
+									<option>DevOps</option>
+								</select>
+
+							<div class="form-group col-md-2">
+								<label for="modalidade">Selecione a modalidade:</label>
+								<select name="modalidade" class="form-control">
+									<option>Presencial</option>
+									<option>Semipresencial</option>
+									<option>EAD</option>
+								</select>
+
+
+							</div>
+							</div>
+							<div class="row">
+
+
+								<div class="form-group col-md-9">
+									<label for="radio">Modalidade:</label>
+									<label class="radio">
+										<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+										Presencial
+									</label>
+									<label class="radio">
+										<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+										Semipresencial
+									</label>
+									<label class="radio">
+										<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+										EAD
+									</label>
+								</div>
+
+
+							</div>
+						</div>
 					</div>
 				</div>
-						
-		
+
+
 			</form>
 	</div>
 </body>
-<script type = "text/javascript" src="cep.js"></script>
+<script type="text/javascript" src="cep.js"></script>
 <script type="text/javascript">var mySimpleCalendar = FLUIGC.calendar('#data');</script>
 
 </html>
